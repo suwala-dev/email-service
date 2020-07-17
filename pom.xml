@@ -7,8 +7,6 @@
     <modules>
         <module>api</module>
         <module>resource-integration</module>
-        <module>resource-integration/emailsender</module>
-        <module>resource-integration/repository</module>
         <module>domain</module>
         <module>war</module>
         <module>orchestrator</module>
@@ -64,11 +62,6 @@
             <dependency>
                 <groupId>com.codibly</groupId>
                 <artifactId>domain</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.codibly</groupId>
-                <artifactId>repository</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

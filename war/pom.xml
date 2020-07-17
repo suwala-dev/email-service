@@ -31,10 +31,6 @@
         </dependency>
         <dependency>
             <groupId>com.codibly</groupId>
-            <artifactId>repository</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.codibly</groupId>
             <artifactId>orchestrator</artifactId>
         </dependency>
         <dependency>
